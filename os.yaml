@@ -1,0 +1,23 @@
+applied_templates:
+- inputs:
+    language: kotlin
+    project_group_id: com.example
+    project_name: myenv
+    project_version: 1.0.0
+  template_data_path: .os/plugins/Orangestack-com/languages-env-base-plugin
+- inputs:
+    cloud_account_id: '12345'
+    cloud_region: us-east-1
+    language: kotlin
+    project_name: myenv
+    stage_name: sandbox
+  template_data_path: .os/plugins/Orangestack-com/stages-plugin
+- inputs:
+    cloud_account_id: '54321'
+    cloud_region: us-east-1
+    language: kotlin
+    project_name: myenv
+    stage_name: dev
+  template_data_path: .os/plugins/Orangestack-com/stages-plugin
+language: kotlin
+project_name: myenv

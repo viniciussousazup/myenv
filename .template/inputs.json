@@ -1,0 +1,18 @@
+{
+    "global": {
+        "language": "kotlin",
+        "project_name": "myenv",
+        "project_group_id": "com.example",
+        "project_version": "1.0.0",
+        "stage_name": "dev",
+        "cloud_account_id": "54321",
+        "cloud_region": "us-east-1"
+    },
+    "last": {
+        "language": "kotlin",
+        "project_name": "myenv",
+        "stage_name": "dev",
+        "cloud_account_id": "54321",
+        "cloud_region": "us-east-1"
+    }
+}
